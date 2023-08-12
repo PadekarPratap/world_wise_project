@@ -1,64 +1,64 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2023-08-12T17:46:05.290Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "48.83579746243093",
+        "lng": "2.3620605468750004"
       },
-      "id": 17806751
+      "id": "c4e57d17-f444-4533-b131-fa5e88a7fc6d"
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "cityName": "Komarovo",
+      "country": "Russian Federation (the)",
+      "emoji": "RU",
+      "date": "2023-08-12T19:14:08.910Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "55.466399363938194",
+        "lng": "34.54101562500001"
       },
-      "id": 231515
+      "id": "3d16d2de-55d1-4f4c-89c9-556d50b05bcd"
     },
     {
-      "cityName": "Berlin",
+      "cityName": "Bad Urach",
       "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "emoji": "DE",
+      "date": "2023-08-12T19:14:47.646Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "48.480204398955145",
+        "lng": "9.4207763671875"
       },
-      "id": 98443197
+      "id": "21752344-78c3-4231-80e2-645f610841fe"
     },
     {
-      "cityName": "GalaPogo",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Great 😃",
+      "cityName": "Smidary",
+      "country": "Czechia",
+      "emoji": "CZ",
+      "date": "2023-08-12T19:19:28.201Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "50.28933925329178",
+        "lng": "15.468750000000002"
       },
-      "id": 12312315
+      "id": "dc99348a-7804-48d8-b7ee-43021452d234"
+    },
+    {
+      "cityName": "Krasnawka",
+      "country": "Belarus",
+      "emoji": "BY",
+      "date": "2023-08-17T18:30:00.000Z",
+      "notes": "",
+      "position": {
+        "lat": "52.908902047770255",
+        "lng": "29.223632812500004"
+      },
+      "id": "5218aa77-cd0d-4bce-8d7a-ab5c6b4f1e83"
     }
   ]
 }
