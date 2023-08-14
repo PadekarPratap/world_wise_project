@@ -1,5 +1,11 @@
 import axios from "axios";
-import { createContext, useContext, useEffect, useReducer } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useReducer,
+} from "react";
 
 const initialState = {
   cities: [],
@@ -89,26 +95,29 @@ const CitiesContextProvider = ({ children }) => {
     fetchCities();
   }, []);
 
-  const fetchCity = async (id) => {
-    if (id === currentCity.id) return;
+  const fetchCity = useCallback(
+    async (id) => {
+      if (id === currentCity.id) return;
 
-    try {
-      //   setIsLoading(true);
-      dispatch({ type: "loading" });
-      const { data } = await axios.get(`http://localhost:3500/cities/${id}`);
+      try {
+        //   setIsLoading(true);
+        dispatch({ type: "loading" });
+        const { data } = await axios.get(`http://localhost:3500/cities/${id}`);
 
-      //   setCurrentCity(data);
-      dispatch({ type: "city/loaded", payload: data });
-    } catch (err) {
-      console.log(Error);
-      dispatch({
-        type: "rejected",
-        payload: "There was an error loading the city...",
-      });
-    } /*finally {
+        //   setCurrentCity(data);
+        dispatch({ type: "city/loaded", payload: data });
+      } catch (err) {
+        console.log(Error);
+        dispatch({
+          type: "rejected",
+          payload: "There was an error loading the city...",
+        });
+      } /*finally {
       setIsLoading(false);
     }*/
-  };
+    },
+    [currentCity.id]
+  );
 
   const createCity = async (newCity) => {
     try {

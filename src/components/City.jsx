@@ -21,9 +21,7 @@ function City() {
 
   useEffect(() => {
     fetchCity(id);
-
-    /* eslint-disable-next-line */
-  }, [id]);
+  }, [id, fetchCity]);
 
   // TEMP DATA
   // const currentCity = {

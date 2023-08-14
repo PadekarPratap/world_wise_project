@@ -1,64 +1,52 @@
 {
   "cities": [
     {
-      "cityName": "Paris",
+      "cityName": "Neuville-aux-Bois",
       "country": "France",
       "emoji": "FR",
-      "date": "2023-08-12T17:46:05.290Z",
+      "date": "2023-08-13T07:19:13.515Z",
       "notes": "",
       "position": {
-        "lat": "48.83579746243093",
-        "lng": "2.3620605468750004"
+        "lat": "48.070738264258324",
+        "lng": "2.0654296875000004"
       },
-      "id": "c4e57d17-f444-4533-b131-fa5e88a7fc6d"
+      "id": "4a79a2dd-e906-4159-9ecb-b085506c50a2"
     },
     {
-      "cityName": "Komarovo",
-      "country": "Russian Federation (the)",
-      "emoji": "RU",
-      "date": "2023-08-12T19:14:08.910Z",
+      "cityName": "Murighiol",
+      "country": "Romania",
+      "emoji": "RO",
+      "date": "2023-08-13T07:25:57.949Z",
       "notes": "",
       "position": {
-        "lat": "55.466399363938194",
-        "lng": "34.54101562500001"
+        "lat": "45.089035564831036",
+        "lng": "29.267578125000004"
       },
-      "id": "3d16d2de-55d1-4f4c-89c9-556d50b05bcd"
+      "id": "330718e9-5841-4c4b-99f8-60e52654e7c3"
     },
     {
-      "cityName": "Bad Urach",
-      "country": "Germany",
-      "emoji": "DE",
-      "date": "2023-08-12T19:14:47.646Z",
+      "cityName": "Swinice Warckie",
+      "country": "Poland",
+      "emoji": "PL",
+      "date": "2023-08-13T07:26:42.346Z",
       "notes": "",
       "position": {
-        "lat": "48.480204398955145",
-        "lng": "9.4207763671875"
+        "lat": "52.03897658307622",
+        "lng": "19.00634765625"
       },
-      "id": "21752344-78c3-4231-80e2-645f610841fe"
+      "id": "6a5e5f00-e1d0-433a-ae5e-0106e6b44530"
     },
     {
-      "cityName": "Smidary",
-      "country": "Czechia",
-      "emoji": "CZ",
-      "date": "2023-08-12T19:19:28.201Z",
+      "cityName": "Janowiec Wielkopolski",
+      "country": "Poland",
+      "emoji": "PL",
+      "date": "2023-08-13T07:26:46.218Z",
       "notes": "",
       "position": {
-        "lat": "50.28933925329178",
-        "lng": "15.468750000000002"
+        "lat": "52.855864177853995",
+        "lng": "17.512207031250004"
       },
-      "id": "dc99348a-7804-48d8-b7ee-43021452d234"
-    },
-    {
-      "cityName": "Krasnawka",
-      "country": "Belarus",
-      "emoji": "BY",
-      "date": "2023-08-17T18:30:00.000Z",
-      "notes": "",
-      "position": {
-        "lat": "52.908902047770255",
-        "lng": "29.223632812500004"
-      },
-      "id": "5218aa77-cd0d-4bce-8d7a-ab5c6b4f1e83"
+      "id": "9b7319af-fe54-4660-8cce-df5dda917d9a"
     }
   ]
 }
